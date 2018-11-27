@@ -10,7 +10,8 @@ html {
 	width: 100%;
 }
 
-p {
+p,
+h3 {
 	font-family: 'Old Standard TT', serif;
 }
 
@@ -32,7 +33,7 @@ section#home {
 	background: url('../img/bg.jpg');
 	background-repeat: no-repeat; 
 	background-position: center;
-	webkit-background-size: cover;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
@@ -229,6 +230,8 @@ div.aboutcontent {
 
 section#about {
 	height: 100%;
+	background: url('../img/about.jpg') no-repeat center center;
+	background-attachment: fixed;
 	background-color: #656d78;
 	display: flex;
 	align-items: center;
@@ -267,7 +270,8 @@ div.aboutcontent span {
 
 section#skillset {
 	height: 100%;
-	background-color: black;
+	background: url('../img/skillset.jpg') no-repeat center center;
+	background-attachment: fixed;
 	color: white;
 	display: flex;
 	align-items: center;
@@ -286,8 +290,9 @@ section#skillset {
 
 /*projects*/
 section#projects {
-	height: 80%;
-	background-color: white;
+	height: auto;
+	background: url('../img/projects.jpg') no-repeat center center;
+	background-attachment: fixed;
 	align-items: center;
 	display: flex;
 }
@@ -305,7 +310,7 @@ img.d-block {
 /*contact*/
 section#contact {
 	height: 100%;
-	background: url('../img/bgcontact.jpg');
+	background: url('../img/contact.jpg');
 	background-repeat: no-repeat; 
 	background-position: left;
 	align-items: center;
